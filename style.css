@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --drabOlive:rgb(37, 67, 54);
+    --seafoamGreen: rgb(107, 138, 122);
+    --eggShell:rgb(183, 181, 151);
+    --ivory:rgb(218, 211, 190);
+    --deepForestGreen:rgb(43, 78, 62);
+    --dustyBlue:rgb(130, 152, 142);
+    --taupe:rgb(169, 169, 169);
+    --warmSand:rgb(239, 222, 203);
+    --dustyRose:rgb(204, 188, 183);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Poppins",sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background-color: var(--drabOlive);
+    border-right: 1px solid black;
+}
+
+.nav-link {
+    font-size: 46px;
+    color: rgba(255,255,255,0.18);
+    transform: rotate(-90deg);
+    min-width:100vh;
+    width: 100%;
+}
+
+.heading-text{
+    font-size: 60px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.page {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0,0,0,0.18);
+}
+
+.scroll {
+    position: absolute;
+    height: 5px;
+    width: 0;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+}
+
+.banner{
+    background-color: var(--eggShell);
+}
+
+.mid-section{
+    background-color: var(--ivory);
+    flex-direction: column;
+}
+
+.main-area{
+    background-color: var(--warmSand);
+}
+
+.btm-one{
+    background-color: var(--dustyRose);
+}
+
+.btm-two{
+    background-color: var(--taupe);
+}
+
+.serv-boxes{
+    width:200px;
+    height:200px;
+    background-color: var(--seafoamGreen);
+    margin-inline: 20px;
+    border-radius: 20px;
+}
+
+.serv-box-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    color:var(--drabOlive);
+    font-weight: 600;
+}
+
+.services{
+    display: flex;
+}
