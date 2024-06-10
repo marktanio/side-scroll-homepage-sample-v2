@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  .content {
+    display: flex;
+    height: 100%;
+  }
+  
+  .panel {
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .panel:nth-child(1) { background-color: #ff0044; }
+  .panel:nth-child(2) { background-color: #00ff44; }
+  .panel:nth-child(3) { background-color: #0044ff; }
+  .panel:nth-child(4) { background-color: #ff4400; }
+  
